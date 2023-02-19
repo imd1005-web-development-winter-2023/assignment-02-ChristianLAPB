@@ -1,25 +1,168 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>Landing page</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Assignment 2 reset.css" />
+    <link rel="stylesheet" href="Assignment 2 style.css" />
   </head>
   <body>
-      <p>Hello world</p>
+    <header>
+      <div class="header">
+        <div class="container">
+          <h2 class="sr-only"></h2>
+
+          <div class="header--banner">
+            <img
+              class="header--banner--img"
+              width = 336
+              src="logo.png" 
+              alt="Company logo"
+            />
+
+            <nav class="header--banner--nav">
+              <ul>
+                <button type="submit"><img width = 30 src="Menu.png" alt="buttonpng" border="0"/>Menu</button>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder = "Search" autocomplete="name"/>
+                <button type="submit"><img width = 30 src="Wishlist.png" alt="buttonpng" border="0"/>Watchlist</button>
+                <button type="submit"><img width = 50 src="Profile.png" alt="buttonpng" border="0"/>EN<img width = 50 src="Option.png" alt="buttonpng" border="0"/></button>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="hero">
+          <div class="container">
+            <div class="hero--flex">
+              <div class="hero--flex--content">
+                <h3>This Weeks Top Movies</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="blog">
+          <div class="container">
+            <ul class="blog--posts">
+              <li>
+                <h2>Top Gun: Maverick</h2>
+                <img width = 287 src="Maverick.jpg" alt="" />
+                <p>
+                  After thirty years, Maverick is still pushing the envelope as a top naval aviator, but 
+                  must confront ghosts of his past when he leads TOP GUN's elite graduates on a 
+                  mission that demands the ultimate sacrifice from those chosen to fly it.
+                </p>
+                <button type="button">IMDb 8.3/10</button>
+                <button type="button">Rotten Tomotoes 96%</button>
+                <button type="button">Metacritic 78%</button>
+                <button type="button">Google users 80%</button>
+                <br>
+                  <button type="button"><img width = 30 src="Trailer.png" alt="buttonpng" border="0"/>Trailer</button>
+                  <button type="button"><img width = 20 src="Location.png" alt="buttonpng" border="0"/>Explore Locations</button>
+                </br>
+              </li>
+              <li>
+                <h2>Everything Everywhere All at Once</h2>
+                <img width = 287 src="EEAAO.jpg" alt="" />
+                <p>
+                  A middle-aged Chinese immigrant is swept up into an insane adventure in which she 
+                  alone can save existence by exploring other universes and connecting with the lives 
+                  she could have led.
+                </p>
+                <button type="button">IMDb 8.3/10</button>
+                <button type="button">Rotten Tomotoes 96%</button>
+                <button type="button">Metacritic 78%</button>
+                <button type="button">Google users 80%</button>
+                <br>
+                  <button type="button"><img width = 30 src="Trailer.png" alt="buttonpng" border="0"/>Trailer</button>
+                  <button type="button"><img width = 20 src="Location.png" alt="buttonpng" border="0"/>Explore Locations</button>
+                </br>
+              </li>
+              <li>
+                <h2>Avatar: The Way of Water</h2>
+                <img width = 287 src="Avatar.jpg" alt="" />
+                <p>
+                  Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. 
+                  Once a familiar threat returns to finish what was previously started, Jake must work 
+                  with Neytiri and the army of the Na'vi race to protect their home.
+                </p>
+                <button type="button">IMDb 7.8/10</button>
+                <button type="button">Rotten Tomotoes 76%</button>
+                <button type="button">Metacritic 67%</button>
+                <button type="button">Google users 93%</button>
+                <br>
+                  <button type="button"><img width = 30 src="Trailer.png" alt="buttonpng" border="0"/>Trailer</button>
+                  <button type="button"><img width = 20 src="Location.png" alt="buttonpng" border="0"/>Explore Locations</button>
+                </br>
+              </li>
+              <li>
+                <h2>Glass Onion: A Knives Out Mystery</h2>
+                <img width = 287 src="Glass Onion.jpg" alt="" />
+                <p>
+                  Famed Southern detective Benoit Blanc travels to Greece for his latest case.
+                </p>
+                <button type="button">IMDb 7.2/10</button>
+                <button type="button">Rotten Tomotoes 92%</button>
+                <button type="button">Metacritic 81%</button>
+                <button type="button">Google users 84%</button>
+                <br>
+                  <button type="button"><img width = 30 src="Trailer.png" alt="buttonpng" border="0"/>Trailer</button>
+                  <button type="button"><img width = 20 src="Location.png" alt="buttonpng" border="0"/>Explore Locations</button>
+                </br>
+              </li>
+              <li>
+                <h2>Nope</h2>
+                <img width = 287 src="Nope.jpg" alt="" />
+                <p>
+                  The residents of a lonely gulch in inland California bear witness to an uncanny and 
+                  chilling discovery.
+                </p>
+                <button type="button">IMDb 6.9/10</button>
+                <button type="button">Rotten Tomotoes 83%</button>
+                <button type="button">Metacritic 77%</button>
+                <button type="button">Google users 64%</button>
+                <br>
+                  <button type="button"><img width = 30 src="Trailer.png" alt="buttonpng" border="0"/>Trailer</button>
+                  <button type="button"><img width = 20 src="Location.png" alt="buttonpng" border="0"/>Explore Locations</button>
+                </br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <nav class="footer--banner--nav">
+        <ul>
+          <li><a href="#">Get the Movie Ranker App</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Site Index</a></li>
+          <li><a href="#">Movie Ranking Pro</a></li>
+          <li><a href="#">Jobs</a></li>
+          <br>
+            <li><a href="#">Movie Ranker Developer</a></li>
+            <li><a href="#">Box Office Stats</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Press Reeleases</a></li>
+          </br>
+          <br>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Personalized Ads</a></li>
+          </br>
+        </ul>
+      </nav>
+      <label for="name"></label>
+      <input type="text" id="name" name="name" placeholder = "Email" autocomplete="name"/>
+      <br>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder = "Password" autocomplete="name"/>
+      </br>
+    </main>
   </body>
 </html>
