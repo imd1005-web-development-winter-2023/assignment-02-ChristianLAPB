@@ -69,32 +69,33 @@ main {
   }
 
 br {
-    margin: 0.15rem;
+    margin: 0.20rem;
 }
 
-main h1 {
+.filter {
     margin-left: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0px;
     text-align: left;
     font-weight: 900;
     color: #707070;
     text-decoration: none;
-  }
+}
 
-.maverick--img {
+.poster--img {
     margin: 30px;
-    height: 425px;
+    height: 620px;
+    align-items: left;
   }
 
-main h2 {
+main h1 {
     margin: none;
     font-size: 3rem;
     letter-spacing: 0px;
     text-align: left;
   }
 
-p {
+.movie--text {
     margin: none;
     color: #959595; 
     font-size: 2rem;
@@ -111,7 +112,7 @@ main button{
     background-color: #DDDDDD;
     color: #707070;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -123,10 +124,13 @@ main button:hover{
     border: none;
     margin: 10px;
     height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #AAAAAA;
     color: #707070;
+    color: #707070;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     transition: 0.5s;
 }
@@ -137,7 +141,7 @@ main button:hover{
     background-color: #0057FF;
     color: #FDEC00;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -147,62 +151,10 @@ main button:hover{
     background-color: #0034AA;
     color: #f1faee;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     transition: 0.5s;
 }
-
-.eeaao--img {
-    margin: 30px;
-    height: 425px;
-    align-items: left;
-  }
-
-main h3 {
-    margin: none;
-    font-size: 3rem;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-
-.avatar--img {
-    margin: 30px;
-    height: 425px;
-    align-items: left;
-  }
-
-main h4 {
-    margin: none;
-    font-size: 3rem;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-
-.Glass--Onion--img {
-    margin: 30px;
-    height: 425px;
-    align-items: left;
-  }
-
-main h5 {
-    margin: none;
-    font-size: 3rem;
-    letter-spacing: 0px;
-    text-align: left;
-  }
-
-.nope--img {
-    margin: 30px;
-    height: 425px;
-    align-items: left;
-  }
-
-main h6 {
-    margin: none;
-    font-size: 3rem;
-    letter-spacing: 0px;
-    text-align: left;
-  }
 
 footer {
     padding: 30px 20px;
@@ -258,6 +210,7 @@ footer p {
 
 .footer--links label,
 .footer--links input{
+    margin: 5px 0px;
     width: 350px;
     height: 40px;
     border-radius: 12px;
