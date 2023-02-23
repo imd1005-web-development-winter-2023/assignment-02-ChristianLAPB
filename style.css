@@ -63,18 +63,10 @@ header {
 
 main {
     align-self: left;
-    min-width: 1630px;
-    max-width: 1630px;
+    min-width: 1710px;
+    max-width: 1710px;
     color: #707070;
   }
-
-.text--break {
-    margin: 7px;
-}
-
-.button--break{
-    margin: 30px;
-}
 
 .daily--rec {
     margin-left: 30px;
@@ -82,8 +74,227 @@ main {
     letter-spacing: 0px;
     text-align: left;
     font-weight: 900;
-    color: #707070;
-    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+main h1 {
+    margin: none;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+.genre--text--nope{
+    margin: none;
+    color: #FFFFFF; 
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.movie--text--nope{
+    margin: none;
+    color: #FFFFFF; 
+    font-size: 2rem;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.poster--img {
+    height: 620px;
+    align-items: left;
+    clear: both;
+  }
+
+.nope--card{
+    background: #333333;
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -42px 0px 0px 0px;
+}
+
+.nope--card--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.nope--card--content--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: flex-start;
+}
+
+.nope--card--content--top--buttons{
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nope--card--content--bottom--buttons{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tg--card{
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -42px 0px 0px 0px;
+}
+
+.tg--card--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.tg--card--content--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: flex-start;
+}
+
+.tg--card--content--top--buttons{
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.tg--card--content--bottom--buttons{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.eeaao--card{
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -42px 0px 0px 0px;
+}
+
+.eeaao--card--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.eeaao--card--content--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: flex-start;
+}
+
+.eeaao--card--content--top--buttons{
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.eeaao--card--content--bottom--buttons{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.avatar--card{
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -42px 0px 0px 0px;
+}
+
+.avatar--card--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.avatar--card--content--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: flex-start;
+}
+
+.avatar--card--content--top--buttons{
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.avatar--card--content--bottom--buttons{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.go--card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.go--card--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.go--card--content--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: flex-start;
+    margin: 30px;
+}
+
+.go--card--content--top--buttons{
+    display: flex;
+    margin: 30px 30px 30px 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.go--card--content--bottom--buttons{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .filter {
@@ -96,13 +307,7 @@ main {
     text-decoration: none;
 }
 
-.poster--img {
-    margin: 30px;
-    height: 620px;
-    align-items: left;
-  }
-
-main h1 {
+main h2 {
     margin: none;
     font-size: 3rem;
     letter-spacing: 0px;
@@ -127,7 +332,6 @@ main h1 {
 
 main button{
     border: none;
-    margin: 10px;
     height: 45px;
     padding-left: 10px;
     padding-right: 10px;
@@ -136,6 +340,7 @@ main button{
     font-weight: 800;
     font-size: 1.5rem;
     text-align: center;
+    margin: 0px 30px 0px 0px;
 }
 
 button {
@@ -144,7 +349,6 @@ button {
 
 main button:hover{
     border: none;
-    margin: 10px;
     height: 45px;
     padding-left: 10px;
     padding-right: 10px;
@@ -155,6 +359,7 @@ main button:hover{
     font-size: 1.5rem;
     text-align: center;
     transition: 0.5s;
+    margin: 0px 30px 0px 0px;
 }
 
 .offsite--buttons button{
@@ -165,6 +370,7 @@ main button:hover{
     font-weight: 800;
     font-size: 2rem;
     text-align: center;
+    margin: 0px 30px 0px 0px;
 }
 
 .offsite--buttons button:hover{
@@ -176,6 +382,7 @@ main button:hover{
     font-size: 2rem;
     text-align: center;
     transition: 0.5s;
+    margin: 0px 30px 0px 0px;
 }
 
 footer {
@@ -258,3 +465,4 @@ body {
     min-height: 100%;
     min-width: 100%;
   }
+
