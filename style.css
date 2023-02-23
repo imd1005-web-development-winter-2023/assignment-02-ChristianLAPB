@@ -96,6 +96,7 @@ br {
     margin: 30px;
     height: 620px;
     align-items: left;
+    clear:both;
   }
 
 main h1 {
