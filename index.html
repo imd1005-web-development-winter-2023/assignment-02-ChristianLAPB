@@ -1,144 +1,192 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>MovieRanker.com</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="reset.css"/>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <div class="page">
-        <header>
-            <div class="header--banner">
-            <a href="#"><img class="header--banner--logo" src="Logo.png" alt="Logo" /></a>
-            <nav class="header--banner--nav">
+    <head>
+        <title>MovieRanker.com</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <div class="header--banner">
+                <a href="#"><img class="header--banner--logo" src="Logo.png" alt="Logo" /></a>
+                <nav class="header--banner--nav">
+                    <ul>
+                        <label for="name"></label>
+                        <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Search" autocomplete="name"/>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Watchlist</a></li>
+                        <a href="#"><img class="profile--icon" src="Profile.png" alt="Profile Icon" /></a>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </header>
+            <main>
+                <p class="daily--rec">Recommended For You:</p>
+                <section class="nope--card">
+                    <img class="poster--img" src="Nope.jpg" alt="Nope Movie Poster"/>
+                    <div class="nope--card--content">
+                        <div class="nope--card--content--top">
+                            <h1>Nope</h1> 
+                            <p class="genre--text--nope">Genres: Horror, Mystery, Sci-Fi</p>
+                            <p class="movie--text--nope">After random objects falling from the sky result in the death of their father, OJ and Emerald Haywood attempt to capture video evidence of an unidentified flying object with the help of tech salesman Angel Torres and documentarian Antlers Holst.</p>
+                        </div>
+                        <div class="nope--card--content--top--buttons">
+                            <div class="offsite--buttons">
+                                <button type="button">Trailer</button>
+                                <button type="button">Explore Locations</button>
+                            </div>
+                        </div>
+                        <div class="nope--card--content--bottom--buttons">
+                            <button type="button">IMDb 6.9/10</button>
+                            <button type="button">Rotten Tomotoes 83%</button>
+                            <button type="button">Metacritic 77%</button>
+                            <button type="button">Google users 64%</button>
+                        </div>
+                    </div>
+                </section>
+                <a href="#"><p class="filter">Filter: "This Weeks Top Movies"</p></a>
+                <a href="#"><p class="filter">Genre: "None"</p></a>
+                <section class="tg--card">
+                    <img class="poster--img" src="Maverick.jpg" alt="Top Gun: Maverick Movie Poster"/>
+                    <div class="tg--card--content">
+                        <div class="tg--card--content--top">
+                            <h2>Top Gun: Maverick</h2> 
+                            <p class="genre--text">Genres: Action, Adventure, Drama</p>
+                            <p class="movie--text">After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.</p>
+                        </div>
+                        <div class="tg--card--content--bottom">
+                            <div class="tg--card--content--top--buttons">   
+                                <div class="offsite--buttons">
+                                    <button type="button">Trailer</button>
+                                    <button type="button">Explore Locations</button>
+                                </div>
+                            </div>
+                            <div class="tg--card--content--bottom--buttons">
+                                <button type="button">IMDb 8.3/10</button>
+                                <button type="button">Rotten Tomotoes 96%</button>
+                                <button type="button">Metacritic 78%</button>
+                                <button type="button">Google users 80%</button>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+                <section class="eeaao--card">
+                    <img class="poster--img" src="EEAAO.jpg" alt="Everything Everywhere All At Once Movie Poster"/>
+                    <div class="eeaao--card--content">
+                        <div class="eeaao--card--content--top">
+                            <h2>Everything Everywhere All At Once</h2>  
+                            <p class="genre--text">Genres: Sci-Fi, Action, Adventure</p>
+                            <p class="movie--text">A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.</p>
+                        </div>
+                        <div class="eeaao--card--content--bottom">
+                            <div class="eeaao--card--content--top--buttons">   
+                                <div class="offsite--buttons">
+                                    <button type="button">Trailer</button>
+                                    <button type="button">Explore Locations</button>
+                                </div>
+                            </div>
+                            <div class="eeaao--card--content--bottom--buttons">
+                                <button type="button">IMDb 8/10</button>
+                                <button type="button">Rotten Tomotoes 95%</button>
+                                <button type="button">Metacritic 81%</button>
+                                <button type="button">Google users 84%</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="avatar--card">
+                    <img class="poster--img" src="Avatar.jpg" alt="Avatar: The Way of Water Movie Poster"/>
+                    <div class="avatar--card--content">
+                        <div class="avatar--card--content--top">
+                            <h2>Avatar: The Way of Water</h2> 
+                            <p class="genre--text">Genres: Action, Adventure, Fantasy</p>
+                            <p class="movie--text">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p>
+                        </div>
+                        <div class="avatar--card--content--bottom">
+                            <div class="avatar--card--content--top--buttons">   
+                                <div class="offsite--buttons">
+                                    <button type="button">Trailer</button>
+                                    <button type="button">Explore Locations</button>
+                                </div>
+                            </div>
+                            <div class="avatar--card--content--bottom--buttons">
+                                <button type="button">IMDb 7.8/10</button>
+                                <button type="button">Rotten Tomotoes 76%</button>
+                                <button type="button">Metacritic 67%</button>
+                                <button type="button">Google users 93%</button>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+                <section class="go--card">
+                    <img class="poster--img" src="Glass Onion.jpg" alt="Glass Onion: A Knives Out Mystery Movie Poster"/>
+                    <div class="g0--card--content">
+                        <div class="go--card--content--top">
+                            <h2>Glass Onion: A Knives Out Mystery</h2> 
+                            <p class="genre--text">Genres: Comedy, Crime, Drama</p>
+                            <p class="movie--text">Five long-time friends are invited to the Greek island home of billionaire Miles Bron. All five know Bron from way back and owe their current wealth, fame and careers to him. In reality, they all have reasons to kill him.</p>
+                        </div>
+                        <div class="go--card--content--bottom">
+                            <div class="go--card--content--top--buttons">   
+                                <div class="offsite--buttons">
+                                    <button type="button">Trailer</button>
+                                    <button type="button">Explore Locations</button>
+                                </div>
+                            </div>
+                            <div class="go--card--content--bottom--buttons">
+                                <button type="button">IMDb 7.2/10</button>
+                                <button type="button">Rotten Tomotoes 92%</button>
+                                <button type="button">Metacritic 81%</button>
+                                <button type="button">Google users 84%</button>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+            </main>
+            <footer>
+                <nav class="footer--nav">
                 <ul>
-                    <label for="name"></label>
-                    <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Search" autocomplete="name"/>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Watchlist</a></li>
-                    <a href="#"><img class="profile--icon" src="Profile.png" alt="Profile Icon" /></a>
-                    <li><a href="#">EN</a></li>
+                    <div class="footer--links">
+                        <li><a href="#">Movie Ranker App</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Site Index</a></li>
+                        <li><a href="#">Movie Ranking Pro</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </div>
+                    <div class="footer--links">
+                        <li><a href="#">Movie Ranker Developer</a></li>
+                        <li><a href="#">Box Office Stats</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Press Reeleases</a></li>
+                    </div>
+                    <div class="footer--links">
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Personalized Ads</a></li>
+                    </div>
+                    <div class="footer--links">
+                        <p>Subscribe to Our Email List!</p>
+                        <label for="name"></label>
+                        <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Name" autocomplete="name"/>
+                        <label for="name"></label>
+                        <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Email" autocomplete="name"/>
+                    </div>
+                    <div class="footer--socials">
+                        <a href="#"><img class="insta--img" src="Insta.png" alt="Instagram"/></a>
+                        <a href="#"><img class="youtube--img" src="YouTube.png" alt="YouTube"/></a>
+                        <a href="#"><img class="twitter--img" src="Twitter.png" alt="Twitter"/></a>
+                        <a href="#"><img class="facebook--img" src="Facebook.png" alt="Facebook"/></a>
+                    </div>
                 </ul>
+                <div class="footer--copyright">
+                    <p>©2010-2023 MovieRanker.com, Inc.<p>
+                </div>
             </nav>
-            </div>
-        </header>
-        <main>
-            <p class="daily--rec">Recommended For You</p>
-            <img class="poster--img" src="Nope.jpg" alt="Nope Movie Poster" style="float:left"/>
-            <h1>Nope</h1> 
-            <p class="genre--text">Genres: Horror, Mystery, Sci-Fi</p>
-                <p class="movie--text">After random objects falling from the sky result in the death of their father, OJ and Emerald Haywood attempt to capture video evidence of an unidentified flying object with the help of tech salesman Angel Torres and documentarian Antlers Holst.</p>
-            <br class="text--break"></br>
-            <div class="offsite--buttons">
-                <button type="button">Trailer</button>
-                <button type="button">Explore Locations</button>
-            </div>
-            <button type="button">IMDb 6.9/10</button>
-            <button type="button">Rotten Tomotoes 83%</button>
-            <button type="button">Metacritic 77%</button>
-            <button type="button">Google users 64%</button>
-            <br class="button--break"></br>
-            <a href="#"><p class="filter">Filter: "This Weeks Top Movies"</p></a>
-            <a href="#"><p class="filter">Genre: "None"</p></a>
-            <img class="poster--img" src="Maverick.jpg" alt="Top Gun: Maverick Movie Poster" style="float:left"/>
-            <h1>Top Gun: Maverick</h1> 
-            <p class="genre--text">Genres: Action, Adventure, Drama</p>
-            <p class="movie--text">After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.</p>
-            <br class="text--break"></br>
-            <div class="offsite--buttons">
-                <button type="button">Trailer</button>
-                <button type="button">Explore Locations</button>
-            </div>
-            <button type="button">IMDb 8.3/10</button>
-            <button type="button">Rotten Tomotoes 96%</button>
-            <button type="button">Metacritic 78%</button>
-            <button type="button">Google users 80%</button>
-            <br class="button--break"></br>
-            <img class="poster--img" src="EEAAO.jpg" alt="Everything Everywhere All At Once Movie Poster" style="float:left"/>
-            <h1>Everything Everywhere All At Once</h1> 
-            <p class="genre--text">Genres: Sci-Fi, Action, Adventure</p>
-            <p class="movie--text">A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.</p>
-            <br class="text--break"></br>
-            <div class="offsite--buttons">
-                <button type="button">Trailer</button>
-                <button type="button">Explore Locations</button>
-            </div>
-            <button type="button">IMDb 8/10</button>
-            <button type="button">Rotten Tomotoes 95%</button>
-            <button type="button">Metacritic 81%</button>
-            <button type="button">Google users 84%</button>
-            <br class="button--break"></br>
-            <img class="poster--img" src="Avatar.jpg" alt="Avatar: The Way of Water Movie Poster" style="float:left"/>
-            <h1>Avatar: The Way of Water</h1> 
-            <p class="genre--text">Genres: Action, Adventure, Fantasy</p>
-            <p class="movie--text">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p>
-            <br class="text--break"></br>
-            <div class="offsite--buttons">
-                <button type="button">Trailer</button>
-                <button type="button">Explore Locations</button>
-            </div>
-            <button type="button">IMDb 7.8/10</button>
-            <button type="button">Rotten Tomotoes 76%</button>
-            <button type="button">Metacritic 67%</button>
-            <button type="button">Google users 93%</button>
-            <br class="button--break"></br>
-            <img class="poster--img" src="Glass Onion.jpg" alt="Glass Onion: A Knives Out Mystery Movie Poster" style="float:left"/>
-            <h1>Glass Onion: A Knives Out Mystery</h1> 
-            <p class="genre--text">Genres: Comedy, Crime, Drama</p>
-            <p class="movie--text">Five long-time friends are invited to the Greek island home of billionaire Miles Bron. All five know Bron from way back and owe their current wealth, fame and careers to him. In reality, they all have reasons to kill him.</p>
-            <br class="text--break"></br>
-            <div class="offsite--buttons">
-                <button type="button">Trailer</button>
-                <button type="button">Explore Locations</button>
-            </div>
-            <button type="button">IMDb 7.2/10</button>
-            <button type="button">Rotten Tomotoes 92%</button>
-            <button type="button">Metacritic 81%</button>
-            <button type="button">Google users 84%</button>
-            <br class="button--break"></br>
-        </main>
-        <footer>
-            <nav class="footer--nav">
-            <ul>
-                <div class="footer--links">
-                    <li><a href="#">Movie Ranker App</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Site Index</a></li>
-                    <li><a href="#">Movie Ranking Pro</a></li>
-                    <li><a href="#">Jobs</a></li>
-                </div>
-                <div class="footer--links">
-                    <li><a href="#">Movie Ranker Developer</a></li>
-                    <li><a href="#">Box Office Stats</a></li>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Press Reeleases</a></li>
-                </div>
-                <div class="footer--links">
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Personalized Ads</a></li>
-                </div>
-                <div class="footer--links">
-                    <p>Subscribe to Our Email List!</p>
-                    <label for="name"></label>
-                    <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Name" autocomplete="name"/>
-                    <label for="name"></label>
-                    <input style="font-size: 1.5rem" type="text" id="name" name="name" placeholder="Email" autocomplete="name"/>
-                </div>
-                <div class="footer--socials">
-                    <a href="#"><img class="insta--img" src="Insta.png" alt="Instagram"/></a>
-                    <a href="#"><img class="youtube--img" src="YouTube.png" alt="YouTube"/></a>
-                    <a href="#"><img class="twitter--img" src="Twitter.png" alt="Twitter"/></a>
-                    <a href="#"><img class="facebook--img" src="Facebook.png" alt="Facebook"/></a>
-                </div>
-            </ul>
-            <div class="footer--copyright">
-                <p>©2010-2023 MovieRanker.com, Inc.<p>
-            </div>
-        </nav>
-        </footer>
-    </div>
-  </body>
+            </footer>
+        </div>
+    </body>
 </html>
