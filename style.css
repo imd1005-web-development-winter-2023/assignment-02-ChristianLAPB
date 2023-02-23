@@ -63,18 +63,28 @@ header {
 
 main {
     align-self: left;
-    min-width: 1650px;
-    max-width: 1650px;
+    min-width: 1630px;
+    max-width: 1630px;
     color: #707070;
   }
 
 br {
-    margin: 0.20rem;
+    margin: 0.3rem;
+}
+
+.daily--rec {
+    margin-left: 30px;
+    font-size: 1.75rem;
+    letter-spacing: 0px;
+    text-align: left;
+    font-weight: 900;
+    color: #707070;
+    text-decoration: underline;
 }
 
 .filter {
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     letter-spacing: 0px;
     text-align: left;
     font-weight: 900;
@@ -95,6 +105,14 @@ main h1 {
     text-align: left;
   }
 
+.genre--text {
+    margin: none;
+    color: #959595; 
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
 .movie--text {
     margin: none;
     color: #959595; 
@@ -112,7 +130,7 @@ main button{
     background-color: #DDDDDD;
     color: #707070;
     font-weight: 800;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -130,14 +148,14 @@ main button:hover{
     color: #707070;
     color: #707070;
     font-weight: 800;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     transition: 0.5s;
 }
 
 .offsite--buttons button{
     border: none;
-    height: 45px;
+    height: 55px;
     background-color: #0057FF;
     color: #FDEC00;
     font-weight: 800;
@@ -147,7 +165,7 @@ main button:hover{
 
 .offsite--buttons button:hover{
     border: none;
-    height: 45px;
+    height: 55px;
     background-color: #0034AA;
     color: #f1faee;
     font-weight: 800;
@@ -202,16 +220,23 @@ footer p {
 
 .footer--links {
     padding: 30px;
+    width: 600px;
+    height: 250px;
 }
   
 .footer--links p{
-    text-align: left;
+    text-align: center;
+}
+
+.footer--socials{
+    width: 100px;
+    height: 200px;
 }
 
 .footer--links label,
 .footer--links input{
     margin: 5px 0px;
-    width: 350px;
+    width: 300px;
     height: 40px;
     border-radius: 12px;
 }
