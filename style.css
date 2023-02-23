@@ -111,7 +111,6 @@ main h1 {
     background: #333333;
     padding: 50px 30px 30px 30px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: -42px 0px 0px 0px;
 }
@@ -119,7 +118,6 @@ main h1 {
 .nope--card--content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -127,7 +125,6 @@ main h1 {
 .nope--card--content--top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: flex-start;
 }
 
@@ -135,20 +132,17 @@ main h1 {
     display: flex;
     margin: 30px 30px 30px 0px;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .nope--card--content--bottom--buttons{
     display: flex;
     margin: 0px;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .tg--card{
     padding: 50px 30px 30px 30px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: -42px 0px 0px 0px;
 }
@@ -156,7 +150,6 @@ main h1 {
 .tg--card--content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -164,7 +157,6 @@ main h1 {
 .tg--card--content--top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: flex-start;
 }
 
@@ -172,7 +164,6 @@ main h1 {
     display: flex;
     margin: 30px 30px 30px 0px;
     flex-direction: row;
-    justify-content: space-around;
     justify-content: flex-start;
 }
 
@@ -180,13 +171,11 @@ main h1 {
     display: flex;
     margin: 0px;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .eeaao--card{
     padding: 50px 30px 30px 30px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: -42px 0px 0px 0px;
 }
@@ -194,7 +183,6 @@ main h1 {
 .eeaao--card--content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -202,7 +190,6 @@ main h1 {
 .eeaao--card--content--top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: flex-start;
 }
 
@@ -210,7 +197,6 @@ main h1 {
     display: flex;
     margin: 30px 30px 30px 0px;
     flex-direction: row;
-    justify-content: space-around;
     justify-content: flex-start;
 }
 
@@ -218,13 +204,11 @@ main h1 {
     display: flex;
     margin: 0px;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .avatar--card{
     padding: 50px 30px 30px 30px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: -42px 0px 0px 0px;
 }
@@ -232,7 +216,6 @@ main h1 {
 .avatar--card--content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -240,7 +223,6 @@ main h1 {
 .avatar--card--content--top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: flex-start;
 }
 
@@ -248,7 +230,6 @@ main h1 {
     display: flex;
     margin: 30px 30px 30px 0px;
     flex-direction: row;
-    justify-content: space-around;
     justify-content: flex-start;
 }
 
@@ -261,7 +242,6 @@ main h1 {
 
 .go--card{
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -269,7 +249,6 @@ main h1 {
 .go--card--content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 30px;
 }
@@ -277,7 +256,6 @@ main h1 {
 .go--card--content--top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: flex-start;
     margin: 30px;
 }
@@ -286,15 +264,14 @@ main h1 {
     display: flex;
     margin: 30px 30px 30px 30px;
     flex-direction: row;
-    justify-content: space-around;
     justify-content: flex-start;
 }
 
 .go--card--content--bottom--buttons{
     display: flex;
-    margin: 0px;
+    margin: 30px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .filter {
@@ -330,6 +307,10 @@ main h2 {
     text-align: left;
   }
 
+button {
+    border-radius: 12px;
+}
+
 main button{
     border: none;
     height: 45px;
@@ -341,10 +322,6 @@ main button{
     font-size: 1.5rem;
     text-align: center;
     margin: 0px 30px 0px 0px;
-}
-
-button {
-    border-radius: 12px;
 }
 
 main button:hover{
