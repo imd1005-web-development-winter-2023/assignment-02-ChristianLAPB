@@ -68,8 +68,12 @@ main {
     color: #707070;
   }
 
-br {
-    margin: 0.3rem;
+.text--break {
+    margin: 107px;
+}
+
+.button--break{
+    margin: 30px;
 }
 
 .daily--rec {
@@ -96,7 +100,7 @@ br {
     margin: 30px;
     height: 620px;
     align-items: left;
-    clear:both;
+    clear: both;
   }
 
 main h1 {
